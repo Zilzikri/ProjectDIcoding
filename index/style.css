@@ -56,7 +56,7 @@ header{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #302222;
+    background-color: rgb(185, 0, 182);
     transition: all 0.3s ease;
 }
 
@@ -68,14 +68,14 @@ header{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #74512D;
+    background-color: #000;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color:#543310;
+    background-color: rgb(185, 0, 182);
 }
 
 .container {
@@ -111,7 +111,7 @@ header{
 
 .content-head .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #302222;
+    -webkit-text-stroke: 2px rgb(185, 0, 182);
 }
 
 .content-head .content p{
@@ -133,7 +133,7 @@ header{
     font-size: 40rem;
     font-weight: 1000;
     line-height: 6rem;
-    color: #543310;
+    color: #000;
     opacity: 1;
     z-index: -100;
 }
@@ -162,11 +162,11 @@ header{
 }
 
 .aside {
-    border: 10px solid #543310;
+    background-color: #000;
     border-radius: 5px;
     max-width: 350px;
     height: 400px;
-    color: #000;
+    color: #fff;
     margin-top: 40px;
     padding: 1rem;
     align-items: center;
@@ -180,6 +180,7 @@ h3{
     max-width: 300px;
     border-radius: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .content-card {
@@ -192,6 +193,7 @@ h3{
 .card {
     display: flex;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .card1 {
